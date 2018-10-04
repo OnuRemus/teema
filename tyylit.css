@@ -1,0 +1,49 @@
+
+header{
+    background-color: beige;
+    padding: 10px;
+}
+nav{
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 10px;
+    color: rgb(2, 44, 30);
+    }
+nav a:hover{
+    background-color: aqua;
+    color: rgb(1, 26, 7);
+    }
+article{
+    background-color: rgb(65, 65, 139);
+    padding: 10px;
+  
+}
+footer{
+    background-color: rgb(146, 55, 55);
+    padding: 30px;
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+    overflow: auto;
+    
+    
+}
+.oikeaa{
+    box-sizing: border-box;
+    width: 25%;
+    float: right;
+    padding: 1em; 
+}
+.vasen{
+    box-sizing: border-box;
+    width: 75%;
+    float: left;
+    padding: 1em;
+}
