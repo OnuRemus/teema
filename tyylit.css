@@ -1,6 +1,6 @@
 
 header{
-    background-color: beige;
+    background-color: rgb(240, 240, 230);
     padding: 10px;
 }
 nav{
@@ -14,16 +14,16 @@ nav a{
     color: rgb(2, 44, 30);
     }
 nav a:hover{
-    background-color: aqua;
+    background-color: rgb(221, 221, 218);
     color: rgb(1, 26, 7);
     }
 article{
-    background-color: rgb(65, 65, 139);
+    background-color: rgb(240, 240, 230);
     padding: 10px;
   
 }
 footer{
-    background-color: rgb(146, 55, 55);
+    background-color: rgb(240, 240, 230);
     padding: 30px;
     text-align: center;
 }

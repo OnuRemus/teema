@@ -1,10 +1,6 @@
 body{
     background-color: rgb(247, 244, 211);
-    background-image: url(./img/kuva.jpg);
-    img{
-        height: 800px;
-    }
-
+    
 }
 h1{
     text-align: center
