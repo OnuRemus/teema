@@ -1,0 +1,14 @@
+header{
+    text-align: center;
+    padding: 2em;
+    background-color: chartreuse;
+}
+nav{
+    float: left;
+    
+}
+header img{
+    float: right;
+    width: 250px;
+    
+}
