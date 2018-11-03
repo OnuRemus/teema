@@ -1,14 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+html { 
+    background: url(./css/img/ico.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 header{
     text-align: center;
-    padding: 2em;
-    background-color: chartreuse;
-}
-nav{
-    float: left;
-    
+    padding: 1em;
+    color:rgb(0, 0, 0);
 }
 header img{
     float: right;
     width: 250px;
-    
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    padding:0;
+    margin:0;
+}
+.container{
+    width:80%;
+    max-width:1200px;
+    margin:auto;
+    color:rgb(14, 13, 13);
+}
+nav{
+    text-decoration: none;
+    float: left;
+    color: black;
+}
+nav a:hover{
+    background-color: rgb(221, 221, 218);
+    color: rgb(1, 26, 7);
+}
+footer{
+    padding: 30px;
+    text-align: center;
+}
+.tiedotus{
+    font-size: 40px;
+    float: center;
+    padding-top: 4em;
 }
