@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet");
 html { 
     background: url(./css/img/ico.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -17,15 +17,17 @@ header img{
     padding-right: 2em;
 }
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Questrial', sans-serif;
     padding:0;
     margin:0;
 }
 .container{
-    width:80%;
+    overflow: 0 auto;
+    width:90%;
     max-width:1200px;
     margin:auto;
     color:rgb(14, 13, 13);
+    
 }
 header nav{
     text-decoration: none;
@@ -45,15 +47,20 @@ footer{
     float: center;
     padding-top: 4em;
     padding-left: 1em;
+    
 }
 .palvelut{
-    padding-top: 100px;
-    padding-left: 6em;
+    box-sizing: border-box;
+    padding-top:100px;
+    padding-right: 1em;
     padding-bottom: 100px;
+    width: 75%;
+    
 }
 #newsletter{
-    float: right;
+    float: left;
     padding-right: 2em;
+    padding-top: 8em;
 }
 nav a{
     color: black;
@@ -62,8 +69,15 @@ nav a{
 .video{
     padding-left: 2em;
 }
-.col-sm-4{
-    float: left;
-    width: 33.33%;
-    padding: 0px;
+header h1{
+    font-family: fantasy;
+    color: rgb(29, 146, 182);
+    font-size: 2em;
+}
+.row{
+    box-sizing: border-box;
+    float: right;
+    width: 25%;
+    padding-top: 0px;
+    text-align: right;
 }
