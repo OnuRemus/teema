@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Questrial");
 html { 
     background: url(./css/img/ico.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -22,7 +22,7 @@ body{
     margin:0;
 }
 .container{
-    overflow: 0 auto;
+    overflow: 0;
     width:90%;
     max-width:1200px;
     margin:auto;
@@ -38,13 +38,10 @@ nav a:hover{
     background-color: rgb(214, 214, 214);
     color: rgb(1, 26, 7);
 }
-footer{
-    padding-top: 9em;
-    text-align: center;
-}
+
 .tiedotus{
     font-size: 40px;
-    float: center;
+    text-align: left;
     padding-top: 4em;
     padding-left: 1em;
     
@@ -52,14 +49,14 @@ footer{
 .palvelut{
     box-sizing: border-box;
     padding-top:100px;
-    padding-right: 1em;
+    padding-left: 2em;
     padding-bottom: 100px;
     width: 75%;
     
 }
 #newsletter{
     float: left;
-    padding-right: 2em;
+    padding-left: 2em;
     padding-top: 8em;
 }
 nav a{
@@ -78,6 +75,22 @@ header h1{
     box-sizing: border-box;
     float: right;
     width: 25%;
-    padding-top: 0px;
+    padding: 0;
     text-align: right;
+}
+footer{
+    padding-top: 9em;
+    text-align: center;
+}
+.col1{
+    color: darkblue;
+    background-color: cornflowerblue;
+}
+.col2{
+    color: red;
+    background-color: coral;
+}
+.col3{
+    color: green;
+    background-color: khaki;
 }
