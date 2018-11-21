@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Questrial");
 html { 
     background: url(./css/img/ico.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    font-size: 17px;
+    height: auto;
+    width: auto;
 }
 header{
     text-align: center;
@@ -20,9 +19,11 @@ body{
     font-family: 'Questrial', sans-serif;
     padding:0;
     margin:0;
+    height: auto;
+    
 }
 .container{
-    overflow: 0;
+    
     width:90%;
     max-width:1200px;
     margin:auto;
@@ -57,7 +58,7 @@ nav a:hover{
 #newsletter{
     float: left;
     padding-left: 2em;
-    padding-top: 8em;
+    padding-top: 15em;
 }
 nav a{
     color: black;
@@ -71,30 +72,47 @@ header h1{
     color: rgb(29, 146, 182);
     font-size: 2em;
 }
-.row{
-    box-sizing: border-box;
-    float: right;
-    width: 25%;
-    padding: 0;
-    text-align: right;
-    position: relative;
-    top: 1px;
-}
+
 footer{
-    text-align: center;
-    position: relative;
-    top: 22em;
+    position: absolute;
+    bottom: 0;
+    left: 32em;
+         
+}
+
+.sect1{
     
+    width: 22%;
+    padding: 0;
+    position: absolute;
+    top: 35em;
+    right: 2em;
 }
-.col1{
-    color: darkblue;
-    background-color: cornflowerblue;
+.sect2{
+    
+    width: 22%;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    top: 20em;
+    right: 2em;
+
 }
-.col2{
-    color: red;
-    background-color: coral;
+.sect3{
+    
+    width: 22%;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    top: 20em;
+    left: 2em;
 }
-.col3{
-    color: green;
-    background-color: khaki;
+.sect4{
+    
+    width: 22%;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    top: 35em;
+    left: 2em;
 }
