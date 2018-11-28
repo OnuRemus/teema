@@ -9,6 +9,7 @@ header{
     text-align: center;
     padding: 1em;
     color:rgb(0, 0, 0);
+    height: 250px;
 }
 header img{
     float: right;
@@ -20,32 +21,29 @@ body{
     padding:0;
     margin:0;
     height: auto;
+    width: auto;
     
 }
 .container{
     
-    width:90%;
-    max-width:1200px;
+    width:100%;
+    max-width:2300px;
     margin:auto;
     color:rgb(14, 13, 13);
+    overflow: auto;
     
 }
-header nav{
+nav a{
+    color: rgb(13, 88, 146);
     text-decoration: none;
+    font-size: 1.2em;
     float: left;
+    margin: 10px;
     
 }
 nav a:hover{
     background-color: rgb(214, 214, 214);
     color: rgb(1, 26, 7);
-}
-
-.tiedotus{
-    font-size: 40px;
-    text-align: left;
-    padding-top: 4em;
-    padding-left: 1em;
-    
 }
 .palvelut{
     box-sizing: border-box;
@@ -60,26 +58,19 @@ nav a:hover{
     padding-left: 2em;
     padding-top: 15em;
 }
-nav a{
-    color: black;
-    padding-left: 2em;
-}
-.video{
-    padding-left: 2em;
-}
 header h1{
     font-family: fantasy;
     color: rgb(29, 146, 182);
     font-size: 2em;
+    
 }
-
 footer{
     position: absolute;
     bottom: 0;
-    left: 32em;
+    width: 100%;
+    text-align: center;
          
 }
-
 .sect1{
     
     width: 22%;
@@ -115,4 +106,14 @@ footer{
     position: absolute;
     top: 35em;
     left: 2em;
+}
+.g1{
+    float: left;
+    padding-left: 3em;
+     
+}
+.g2{
+    float: right;
+    padding-right: 3em;
+       
 }
