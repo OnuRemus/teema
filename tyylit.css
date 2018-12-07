@@ -9,7 +9,7 @@ header{
     text-align: center;
     padding: 1em;
     color:rgb(0, 0, 0);
-    height: 250px;
+    height: 200px;
 }
 header img{
     float: right;
@@ -39,22 +39,21 @@ nav a{
     float: left;
     margin: 10px;
     
+    
 }
 nav a:hover{
     background-color: rgb(214, 214, 214);
     color: rgb(1, 26, 7);
 }
 .palvelut{
-    padding-top:100px;
-    padding-left: 2em;
-    padding-bottom: 100px;
-    width: 500px;
-    margin: 0;
+    position: absolute;
+    left: 6em;
+    
 }
 #newsletter{
-    float: left;
-    padding-left: 2em;
-    padding-top: 5em;
+    position: absolute;
+    bottom: 4em;
+    left: 6em;
 }
 header h1{
     font-family: fantasy;
@@ -74,8 +73,8 @@ footer{
     width: 22%;
     padding: 0;
     position: absolute;
-    top: 35em;
-    right: 2em;
+    top: 27em;
+    right: 4em;
 }
 .sect2{
     
@@ -83,8 +82,8 @@ footer{
     padding: 0;
     border: 0;
     position: absolute;
-    top: 20em;
-    right: 2em;
+    top: 15em;
+    right: 4em;
 
 }
 .sect3{
@@ -93,8 +92,8 @@ footer{
     padding: 0;
     border: 0;
     position: absolute;
-    top: 20em;
-    left: 2em;
+    top: 15em;
+    left: 4em;
 }
 .sect4{
     
@@ -102,8 +101,8 @@ footer{
     padding: 0;
     border: 0;
     position: absolute;
-    top: 35em;
-    left: 2em;
+    top: 27em;
+    left: 4em;
 }
 .g1{
     float: left;
@@ -116,9 +115,9 @@ footer{
        
 }
 .kuva{
-    width: 30%;
-    float: right;
-
+    position: absolute;
+    right: 6em;
+    bottom: 4em;
 }
 .kuva img{
     width: 200px;
